@@ -1,11 +1,21 @@
+.page-header {
+  background-color: #eee;
+  top: 0;
+  margin-top: 0px;
+}
+
+#brandLogo {
+  padding: 10px;
+  margin-right: 20px;
+}
+
+
 .jumbotron {
-  margin-top: 100px;
+  margin-top: 75px;
   height: 350px;
 }
 
-#callNow {
-  float: right;
-}
+
 
 #contactForm {
   float: right;
