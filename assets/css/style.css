@@ -1,7 +1,10 @@
+
+
 .page-header {
   background-color: #eee;
   top: 0;
   margin-top: 0px;
+  height: 65px;
 }
 
 #brandLogo {
@@ -11,18 +14,40 @@
 #callNow {
   padding: 10px;
   color: 122673;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 
 .jumbotron {
-  margin-top: 75px;
+  margin-top: 35px;
   height: 450px;
+  background-image: url('../../assets/images/meeting1.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+#companyName {
+  color: white;
+  font-family: 'Oxygen', sans-serif;
+  float: right;
+  text-align: right;
+  font-size: 72px;
+  display: flex;
+  flex-direction: column;
+  resize: vertical;
+  overflow: auto;
+  justify-content: right;
+  
+
 }
 
 #contact {
   background: #F9F9F9;
   padding: 25px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  font-family: 'Source Sans Pro', sans-serif;
+
 }
 
 #contact h3 {
@@ -30,6 +55,7 @@
   font-size: 30px;
   font-weight: 300;
   margin-bottom: 10px;
+  font-family: 'Oxygen', sans-serif;
 }
 
 fieldset {
@@ -124,9 +150,35 @@ fieldset {
 }
 
 #contactForm {
-  float: right;
+  float: left;
   margin-right: 10px;
   padding: 20px;
+}
+
+#infoSection {
+  height: 400px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+#aboutProtege {
+  float: left;
+  padding: 0px;
+}
+
+#exampleimg {
+  float: right;
+  height: 250px;
+  width: 250px;
+  top: 50%;
+  transform: translateY(20%);
+  position: relative;
+
+}
+
+#footer {
+  height: 250px;
+  background-color: #eee;
+  padding: 10px;
 }
 
 
