@@ -15,22 +15,25 @@
   padding: 10px;
   color: 122673;
   font-family: 'Source Sans Pro', sans-serif;
+  float:;
+
 }
 
 
 .jumbotron {
   margin-top: 35px;
   height: 450px;
-  background-image: url('../../assets/images/meeting1.jpg');
+  background-image: url('../../assets/images/meeting2.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  position: relative;
+  filter: blur(5px);
 }
 
 #companyName {
   color: white;
   font-family: 'Oxygen', sans-serif;
   float: right;
+  margin-right: 50px;
   text-align: right;
   font-size: 72px;
   display: flex;
@@ -38,15 +41,28 @@
   resize: vertical;
   overflow: auto;
   justify-content: right;
-  
 
+
+}
+
+#tagline {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 30px;
+}
+
+#aboutCompany {
+  font-family: 'Source Sans Pro', sans-serif
 }
 
 #contact {
   background: #F9F9F9;
-  padding: 25px;
+  padding: 10px;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   font-family: 'Source Sans Pro', sans-serif;
+  display: table-cell;
+  vertical-align: middle;
+  /*float: none;*/
+  /*margin-left: 50px;*/
 
 }
 
@@ -85,9 +101,9 @@ fieldset {
 }
 
 #contact input[type="text"]:hover,
+#contact input[type="text"]:hover,
 #contact input[type="email"]:hover,
 #contact input[type="tel"]:hover,
-#contact input[type="url"]:hover,
 #contact textarea:hover {
   -webkit-transition: border-color 0.3s ease-in-out;
   -moz-transition: border-color 0.3s ease-in-out;
@@ -105,15 +121,16 @@ fieldset {
   cursor: pointer;
   width: 100%;
   border: none;
-  background: #122673;
+  background: #48494e;
   color: #FFF;
   margin: 0 0 5px;
   padding: 10px;
   font-size: 15px;
+  font-family: 'Source Sans Pro', sans-serif
 }
 
 #contact button[type="submit"]:hover {
-  background: #0f2166;
+  background: #343639;
   -webkit-transition: background 0.3s ease-in-out;
   -moz-transition: background 0.3s ease-in-out;
   transition: background-color 0.3s ease-in-out;
@@ -153,6 +170,7 @@ fieldset {
   float: left;
   margin-right: 10px;
   padding: 20px;
+  margin-left: 15px;
 }
 
 #infoSection {
@@ -162,15 +180,17 @@ fieldset {
 
 #aboutProtege {
   float: left;
-  padding: 0px;
+  padding: 10px;
+  margin-left: 30px;
 }
 
 #exampleimg {
   float: right;
-  height: 250px;
-  width: 250px;
+  margin-right: 38px;
+  height: 350px;
+  width: 350px;
   top: 50%;
-  transform: translateY(20%);
+  transform: translateY(17%);
   position: relative;
 
 }
@@ -179,6 +199,7 @@ fieldset {
   height: 250px;
   background-color: #eee;
   padding: 10px;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 
